@@ -1,0 +1,11 @@
+# built files
+bin/
+
+#ninja files
+*.ninja*
+
+
+#CMake files:
+CMakeCache.txt
+*.cmake
+CMakeFiles/
