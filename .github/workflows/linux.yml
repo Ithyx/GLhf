@@ -15,4 +15,4 @@ jobs:
         sudo apt-get install xorg-dev
         sudo apt-get install freeglut3-dev
     - name: Build
-      run: ./Build.sh
+      run: ./Buildtests.sh

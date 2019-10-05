@@ -12,4 +12,4 @@ jobs:
     - name: install dependencies
       run: brew install ninja
     - name: Build
-      run: ./Build.sh
+      run: ./BuildTest.sh
