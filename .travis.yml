@@ -7,7 +7,9 @@ matrix:
     - os: osx
       env: INSTALLDEPS="brew install ninja"
     - os: linux
-      env: INSTALLDEPS="sudo apt-get update && sudo apt-get upgrade && sudo apt-get install ninja-build -y"
+      env: INSTALLDEPS="sudo apt-get update \
+       sudo apt-get upgrade \
+       sudo apt-get install ninja-build -y"
 
 before_install: $INSTALLDEPS
 
