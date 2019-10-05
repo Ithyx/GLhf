@@ -6,7 +6,7 @@ matrix:
       env: INSTALLDEPS="chocolatey install ninja"
     - os: osx
       env: INSTALLDEPS="brew install ninja"
-    - os: bionic
+    - os: linux
       env: INSTALLDEPS="sudo apt-get install -y ninja-build"
 
 before_install: $INSTALLDEPS
