@@ -13,5 +13,6 @@ jobs:
       run: |
         sudo apt-get install ninja-build -y
         sudo apt-get install xorg-dev
-    - name: BuildRun
-      run: ./BuildRun.sh
+        sudo apt-get install freeglut3-dev
+    - name: Build
+      run: ./Build.sh
