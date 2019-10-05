@@ -50,6 +50,7 @@ int main(void)
         exit(EXIT_FAILURE);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+    glfwWindowHint(GLFW_STENCIL_BITS, 8);
     window = glfwCreateWindow(640, 480, "Simple example", NULL, NULL);
     if (!window)
     {
