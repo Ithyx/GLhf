@@ -7,7 +7,7 @@ GLhf is an cross-platform OpenGL project template using CMake and Ninja and usin
 
 ## How ?
 To use this template, all you have to do is clone the repo, and install the required platform specific dependencies (glfw is included in this repo):
-* Linux 						(`debian install commands`):
+* Linux 			      			(`debian install commands`):
   * Ninja           (`$ sudo apt-get install ninja-build -y`)
   * xorg-dev        (`$ sudo apt-get install xorg-dev -y`)
   * freeglut3-dev   (`$ sudo apt-get install freeglut3-dev -y`)
