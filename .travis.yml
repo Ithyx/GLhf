@@ -3,11 +3,12 @@ language: cpp
 matrix:
   include:
     - os: windows
-      before_install: chocolatey install ninja
+      env: INSTALLDEPS="chocolatey install ninja"
     - os: osx
-      before_install: brew install ninja
+      env: INSTALLDEPS="brew install ninja"
     - os: bionic
-    before_install: sudo apt-get install -y ninja-build
+      env: INSTALLDEPS="sudo apt-get install -y ninja-build"
 
-script:
-  - ./BuildRun.sh
+before_install: $INSTALLDEPS
+
+script: ./BuildRun.sh
