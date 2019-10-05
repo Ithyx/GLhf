@@ -3,9 +3,11 @@ language: cpp
 matrix:
   include:
     - os: windows
+      before_install: chocolatey install ninja
     - os: osx
-    - os: linux
+      before_install: brew install ninja
     - os: bionic
+    before_install: sudo apt-get install -y ninja-build
 
 script:
   - ./BuildRun.sh
