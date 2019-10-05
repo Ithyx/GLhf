@@ -12,6 +12,6 @@ jobs:
     - name: install dependencies
       run: |
         choco install ninja
-        choco install runinbash
+        choco install git.install --params "/GitAndUnixToolsOnPath"
     - name: BuildRun
-      run: $ ./BuildRun.sh
+      run: bash ./BuildRun.sh
