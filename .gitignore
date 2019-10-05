@@ -1,11 +1,14 @@
 # built files
 bin/
+build/
 
-#ninja files
+# ninja files
 *.ninja*
 
-
-#CMake files:
+# CMake files:
 CMakeCache.txt
 *.cmake
 CMakeFiles/
+
+# vscode
+.vscode/
