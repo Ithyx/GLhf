@@ -1,0 +1,11 @@
+language: cpp
+
+matrix:
+  include:
+    - os: windows
+    - os: osx
+    - os: linux
+    - os: bionic
+
+script:
+  - ./BuildRun.sh
