@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: install dependencies
       run: brew install ninja
-    - name: BuildRun
-      run: ./BuildRun.sh
+    - name: Build
+      run: ./Build.sh
