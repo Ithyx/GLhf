@@ -3,7 +3,9 @@
 [![Actions Status](https://github.com/Ithyx/GLhf/workflows/Windows/badge.svg)](https://github.com/Ithyx/GLhf/actions?workflow=Windows)
 [![Actions Status](https://github.com/Ithyx/GLhf/workflows/OSX/badge.svg)](https://github.com/Ithyx/GLhf/actions?workflow=OSX)
 ## What ?
-GLhf is an cross-platform OpenGL project template using CMake and Ninja and using continuous integration with Github actions.
+GLhf is an cross-platform OpenGL project template using CMake and using continuous integration with Github actions.
+
+For now, the scripts I have written use [Google's Ninja](https://ninja-build.org/), but using [CMake](https://cmake.org/) you can generate a variety of other formats.
 
 ## How ?
 To use this template, all you have to do is clone the repo, and install the required platform specific dependencies (glfw is included in this repo):
