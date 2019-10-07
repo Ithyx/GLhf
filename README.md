@@ -24,12 +24,12 @@ To use this template, all you have to do is clone the repo, and install the requ
   * Ninja           (`choco install ninja`)
   * CMake           (`choco install cmake`)
   * GLWF            (`choco install glfw3`)  
-  After that, if you want to simply build debug and release, execute (in bash):
-  ```bash
-  $ ./BuildTests.sh
-  ```
-  and build executables should be in `build/${CONFIG}/bin`.
-  If you want to build and run only one configuration, simply run (again, in bash) :
-  ```bash
-  $ ./BuildRun [Release/Debug]
-  ```
+After that, if you want to simply build debug and release, execute (in bash):
+```bash
+$ ./BuildTests.sh
+```
+and build executables should be in `build/${CONFIG}/bin`.
+If you want to build and run only one configuration, simply run (again, in bash) :
+```bash
+$ ./BuildRun [Release/Debug]
+```
