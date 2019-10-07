@@ -23,7 +23,7 @@ To use this template, all you have to do is clone the repo, and install the requ
   * Bash            (if you have git for windows, bash should be installed, but to put it in your Path, you can `choco install git.install --params "/GitAndUnixToolsOnPath"`)
   * Ninja           (`choco install ninja`)
   * CMake           (`choco install cmake`)
-  
+  * GLWF            (`choco install glfw3`)  
   After that, if you want to simply build debug and release, execute (in bash):
   ```bash
   $ ./BuildTests.sh
